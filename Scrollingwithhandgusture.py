@@ -31,7 +31,7 @@ cap = cv2.VideoCapture(0)
 cap.set(3, CAM_WIDTH)
 cap.set(4, CAM_HEIGHT)
 last_scroll = p_time = 0
-print("Gesture Scroll Control Active\nOpen palm: Scroll Up \nFist: Scroll Down \nPress 'q' to exit ")
+print("Gesture Scroll Control Active\nOpen palm: Scroll Up!! \nFist: Scroll Down!! \nPress 'q' to exit !!")
 
 while cap.isOpened():
     success, img = cap.read()
